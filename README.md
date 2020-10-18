@@ -11,6 +11,12 @@ Example: You want to create a map of points of interest (POIs) in a geographic a
  * `espeak` for voice confirmation of POI entry (`apt install espeak`)
  * An NMEA GPS receiver, like [this one](https://www.amazon.com/gp/product/B073P3Y48Q)
 
+# Uses
+
+CSVs can be imported into tools like Google Earth Pro:
+
+![Screenshot of POIs displayed in Google Earth](screenshot.png)
+
 # Setup
 
 ```

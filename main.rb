@@ -7,7 +7,7 @@ require "rubyserial"
 
 GPS_PORT = ENV["GPS_PORT"] || "/dev/ttyACM0"
 FILE_LOCATION = "geo.csv"
-CSV_HEADERS = "lat, lng, alt, description\n"
+CSV_HEADERS = "" # <= Customize this
 
 # === DATA INITIALIZATION ===
 decoder = NMEAPlus::Decoder.new
